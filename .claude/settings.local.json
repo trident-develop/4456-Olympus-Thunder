@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/anna/AndroidStudioProjects/OlympusThunder/app/src/main/res/mipmap* -type f | sort)",
+      "Bash(ls -lh /Users/anna/AndroidStudioProjects/OlympusThunder/app/src/main/res/mipmap-*/ | head -100)",
+      "Bash(./gradlew assembleDebug 2>&1 | tail -50)"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "191197922241",
+    "project_id": "olympus-thunder-f6d86",
+    "storage_bucket": "olympus-thunder-f6d86.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191197922241:android:01ed3a8723a962655ee540",
+        "android_client_info": {
+          "package_name": "com.flipkart.sho"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyTiDWuK0FG2N2DnsEl83auNx2sHVPy_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
