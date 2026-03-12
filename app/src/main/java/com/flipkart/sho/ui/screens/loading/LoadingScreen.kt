@@ -153,17 +153,6 @@ fun LoadingScreen() {
                 }
             }
 
-            // Title
-            Text(
-                text = "Olympus Thunder",
-                fontSize = 42.sp,
-                fontWeight = FontWeight.Bold,
-                fontFamily = GameFont,
-                color = GoldAccent,
-                textAlign = TextAlign.Center,
-                modifier = Modifier.offset(y = (-240).dp)
-            )
-
             Text(
                 text = "Loading...",
                 fontSize = 26.sp,
