@@ -312,7 +312,6 @@ fun GameScreen(
             PauseOverlay(
                 onResume = { isPaused = false },
                 onReplay = {
-                    isExitingScreen = true
                     isPaused = false
                     engine.reset()
                     gameState = engine.state
@@ -333,7 +332,6 @@ fun GameScreen(
                 whiteName = whiteName,
                 blackName = blackName,
                 onReplay = {
-                    isExitingScreen = true
                     showGameOverDialog = false
                     engine.reset()
                     gameState = engine.state
